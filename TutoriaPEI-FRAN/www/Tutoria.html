@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutoria</title>
+    <link rel="stylesheet" href="css/styleTutoria.css" />
+  </head>
+  <script src="js/Tutoria.js"></script>
+  <body>
+    <header>
+      <span>Tutoria</span>
+    </header>
+
+    <main>
+      <table>
+        <tr>
+          <th style="width: 18%">Data</th>
+          <th style="width: 25%">Assunto</th>
+          <th>Orientações do Tutor</th>
+        </tr>
+        <tr>
+          <td>
+            <input class="data-input" type="text" />
+          </td>
+          <td>
+            <div class="assuntos">
+              <label><input type="checkbox" /> Tarefa CMSP</label>
+              <label><input type="checkbox" /> Leitura</label>
+              <label><input type="checkbox" /> Redação</label>
+              <label><input type="checkbox" /> Prova Paulista</label>
+              <label><input type="checkbox" /> Avaliações</label>
+              <label><input type="checkbox" /> Dificuldades</label>
+              <label><input type="checkbox" /> Outros</label>
+            </div>
+          </td>
+          <td>
+            <textarea
+              placeholder="Digite aqui as orientações do tutor..."
+              oninput="autoResize(this)"
+            ></textarea>
+          </td>
+        </tr> 
+      </table>
+    </main>
+    <div class="footer">
+      <a href="#" id="add"><img src="img/adicionar.png" alt="Adicionar" /></a>
+    </div>
+
+    <button>Salvar</button>
+  </body>
+</html>

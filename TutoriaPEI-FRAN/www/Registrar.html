@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta http-equiv="Content-Security-Policy" content="default-src * 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval' 'unsafe-inline'; style-src * 'self' 'unsafe-inline'; media-src *">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registrar</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="js/Registrar.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="img/logo.jpeg" alt="logo"> 
+    </div>
+    <div class="content">
+      <h2>Registrar-se</h2>
+      <form id="registerForm">
+        <div class="input-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" placeholder="Digite seu nome" required>
+        </div>
+        <div class="input-group">
+          <label for="cpf">CPF:</label>
+          <input type="password" id="cpf" placeholder="Digite seu CPF" required>
+          <label for="cpfConfirm">Confirmar CPF:</label>
+          <input type="password" id="cpfConfirm" placeholder="Confirme seu CPF" required>
+        </div>
+        <input type="submit" value="Registrar" class="btn">
+        <p class="possuiconta">Já tem uma conta? <a href="index.html" class="entrar">Entrar</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+# Ignorar arquivos de IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar arquivos de build do Java (Maven)
+Tutoria-PEI-FRAN-Backend/target/
+Tutoria-PEI-FRAN-Backend/*.jar
+Tutoria-PEI-FRAN-Backend/*.war
+Tutoria-PEI-FRAN-Backend/*.ear
+
+# Ignorar arquivos de build do Node.js / Cordova
+TutoriaPEI-FRAN/node_modules/
+TutoriaPEI-FRAN/platforms/
+TutoriaPEI-FRAN/plugins/
+TutoriaPEI-FRAN/www/build/
+TutoriaPEI-FRAN/www/lib/
+TutoriaPEI-FRAN/www/dist/
+TutoriaPEI-FRAN/package-lock.json
+
+# Ignorar logs
+*.log
+logs/
+
+# Ignorar arquivos de configuração sensíveis ou gerados localmente
+*.env
+.env.local
+
+# Ignorar arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos Docker gerados (se houver)
+*.swp
+*.swo
+
+# Ignorar o keystore, pois ele é específico do ambiente e pode conter informações sensíveis
+Tutoria-PEI-FRAN-Backend/src/main/resources/keystore.p12

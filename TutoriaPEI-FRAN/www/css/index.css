@@ -1,0 +1,119 @@
+/*
+Paleta de cores
+azul mais claro: #303A73
+azul mais escuro:#282E40
+vermelho:#EC3237
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f2f2f2;
+}
+
+.container {
+  width: 360px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  background: linear-gradient(to bottom, #303a73, #282e40);
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 60% 35%;
+  position: relative;
+  overflow: hidden;
+}
+
+.header img {
+  background: white;
+  border-radius: 12px;
+  padding: 8px;
+  width: 100px;
+}
+
+.content {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.content h2 {
+  color: #ec3237;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #666;
+  margin-top: 10px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #e6e6e6;
+  font-size: 14px;
+}
+
+.input-group input:focus {
+  outline: #ec3237 solid 2px;
+}
+
+.btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background: #ec3237;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ec3237;
+}
+
+.entrar {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #ec3237;
+  font-weight: bolder;
+}
+
+.possuiconta {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}

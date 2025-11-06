@@ -1,0 +1,39 @@
+# Ignorar diretórios e arquivos do Git
+.git
+.gitignore
+
+# Ignorar arquivos de IDEs
+.idea/
+.vscode/
+*.iml
+
+# Ignorar artefatos de build do Backend (Java/Maven)
+Tutoria-PEI-FRAN-Backend/target/
+Tutoria-PEI-FRAN-Backend/.mvn/
+Tutoria-PEI-FRAN-Backend/mvnw
+Tutoria-PEI-FRAN-Backend/mvnw.cmd
+
+# Ignorar artefatos de build do Frontend (Node.js/Cordova)
+TutoriaPEI-FRAN/node_modules/
+TutoriaPEI-FRAN/platforms/
+TutoriaPEI-FRAN/plugins/
+TutoriaPEI-FRAN/www/build/
+TutoriaPEI-FRAN/www/lib/
+TutoriaPEI-FRAN/www/dist/
+
+# Ignorar arquivos de configuração do Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignorar logs e arquivos temporários
+*.log
+tmp/
+temp/
+
+# Ignorar arquivos de ambiente
+*.env
+.env.*
+
+# Ignorar o keystore, pois ele não é necessário no contexto de build se o SSL foi desativado
+Tutoria-PEI-FRAN-Backend/src/main/resources/keystore.p12
